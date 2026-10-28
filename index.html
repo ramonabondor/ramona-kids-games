@@ -3,75 +3,97 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f7ef">
-  <meta name="description" content="Discover Ramona’s playful collection: Colorland Adventures, Animated Stories, PuzzlesKids, and Little World of Discovery. Small moments of creativity, play, and wonder.">
-  <meta property="og:title" content="Ramona’s Little Worlds — Play, create, discover">
-  <meta property="og:description" content="Four little worlds for wonderfully big imaginations. Discover colorful games and family storytelling experiences by Ramona.">
+  <meta name="theme-color" content="#DFF5FF">
+  <meta name="description" content="Color with Pico, solve a puzzle, or make a story starring your family. Preview Colorland Adventures, Animated Stories, PuzzlesKids, and Little World of Discovery.">
+  <meta property="og:title" content="Ramona’s Little Worlds — Games & stories">
+  <meta property="og:description" content="Color with Pico, solve a puzzle, or make a story starring your family. Four apps in development. Preview them here.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://ramonabondor.github.io/ramona-kids-games/assets/colorland-feature.png">
-  <title>Ramona’s Little Worlds · Play, create, discover</title>
+  <meta property="og:image" content="https://ramonabondor.github.io/ramona-kids-games/assets/hero-playtime.webp">
+  <title>Ramona’s Little Worlds · Games & stories</title>
   <link rel="icon" type="image/svg+xml" href="assets/flower.svg">
-  <link rel="preload" href="assets/nunito-800.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/nunito-900.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header wrap">
-    <a class="brand" href="#" aria-label="Ramona’s Little Worlds home"><img src="assets/flower.svg" width="43" height="43" alt=""><span>Ramona’s<span class="brand-bottom">little worlds</span></span></a>
-    <nav aria-label="Main navigation"><a href="#worlds">Our worlds</a><a href="#families">For families</a><a class="nav-contact" href="mailto:bondorramona17@gmail.com">Say hello <span aria-hidden="true">↗</span></a></nav>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#" aria-label="Ramona’s Little Worlds home"><img src="assets/flower.svg" width="48" height="48" alt=""><span>Ramona’s<span class="brand-bottom">little worlds</span></span></a>
+      <nav aria-label="Main navigation"><a href="#worlds">Games & stories</a><a href="#families">For families</a><a class="nav-contact" href="mailto:bondorramona17@gmail.com">Say hello</a></nav>
+    </div>
   </header>
-  <main id="main">
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="tiny-flower" aria-hidden="true">✳</span> PLAY. CREATE. DISCOVER.</p>
-        <h1 id="hero-title">Little worlds.<br>Big <span class="wonder-word">wonder.<svg viewBox="0 0 380 24" aria-hidden="true"><path d="M8 13Q175 -2 369 12M24 21Q215 10 350 19"/></svg></span></h1>
-        <p class="hero-intro">A splash of color. A story to get lost in. A little discovery that becomes a big smile.</p>
-        <p class="hero-description">Meet four playful experiences made for curious little minds and the grown-ups who love them.</p>
-        <a class="button primary" href="#worlds">Find your next adventure <span aria-hidden="true">↗</span></a>
-        <div class="hero-footnote"><span class="mini-icons" aria-hidden="true"><span>✿</span><span>✦</span><span>♡</span></span><span>Small moments. Wonderful possibilities.</span></div>
+  <main id="main" tabindex="-1">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">COLORING, PUZZLES & STORIES</p>
+          <h1 id="hero-title">What shall we <span>play today?<svg viewBox="0 0 430 27" aria-hidden="true"><path d="M8 19Q205-9 422 19"/></svg></span></h1>
+          <p class="hero-description">Color with Pico, solve a puzzle, or make a story starring your family.</p>
+          <a class="button primary" href="#worlds">Browse games & stories <span aria-hidden="true">→</span></a>
+          <p class="hero-note">Four apps in development. Preview them below.</p>
+        </div>
+        <div class="hero-art"><img src="assets/hero-playtime.webp" width="1536" height="1024" alt="A smiling bunny, rainbow paintbrush, yellow puzzle piece, and purple storybook in a flower garden beneath a rainbow and smiling sun" fetchpriority="high"></div>
       </div>
-      <div class="hero-art" aria-label="A playful collage of our colorful worlds">
-        <span class="art-spark spark-one" aria-hidden="true">✧</span><span class="art-spark spark-two" aria-hidden="true">✦</span>
-        <div class="world-orbit" aria-hidden="true"></div>
-        <div class="landscape-window"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i><span>a little world of possibility</span></div><img src="assets/garden-scene.svg" width="1600" height="1000" alt="A bunny exploring a sunny garden beneath a rainbow"></div>
-        <div class="floating-pico"><img src="assets/colorland-icon.png" width="512" height="512" alt="Pico, Colorland’s friendly paintbrush"><span>Let’s make something!</span></div>
-        <div class="floating-puzzle"><img src="assets/puzzle-icon.png" width="512" height="512" alt="Puzzle Kids’ smiling puzzle piece"></div>
-        <div class="handwritten">a little magic<br>in every tap <span aria-hidden="true">⤴</span></div>
-        <span class="art-sticker" aria-hidden="true">made for<br><strong>big imaginations</strong></span>
-      </div>
+      <svg class="section-wave hero-wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 38C180-20 300 18 495 52S810 96 1020 58 1280 2 1440 42V90H0Z"/></svg>
     </section>
-    <div class="play-strip" aria-hidden="true"><div class="wrap"><span>Color outside the lines</span><i>✳</i><span>Follow your curiosity</span><i>✳</i><span>Make a little magic</span><i>✳</i><span>Play at your own pace</span></div></div>
     <section class="worlds-section wrap" id="worlds" aria-labelledby="worlds-title">
-      <div class="section-heading"><div><p class="eyebrow">FOUR WORLDS. ENDLESS WHAT-IFS.</p><h2 id="worlds-title">Where shall we go today?</h2></div><p>Different adventures. <br>The same lovely sense of wonder.</p></div>
-      <div class="filters" role="group" aria-label="Filter experiences"><button type="button" aria-pressed="true" data-filter="all">All worlds <span>4</span></button><button type="button" aria-pressed="false" data-filter="create">Create & imagine</button><button type="button" aria-pressed="false" data-filter="discover">Play & discover</button></div>
-      <p class="sr-only" id="filter-status" role="status" aria-live="polite">Showing all four experiences.</p>
-      <div class="game-grid">
-        <article class="game-card colorland" data-category="create">
-          <button class="card-art colorland-art" type="button" data-game="colorland" aria-label="Preview Colorland Adventures"><span class="art-label">A LITTLE MORE COLOR</span><img src="assets/colorland-feature.png" width="1024" height="500" alt="Pico the paintbrush with a smiling sun, balloon, and leaf" loading="lazy"><span class="preview-corner" aria-hidden="true">↗</span></button>
-          <div class="card-copy"><div class="card-meta"><span>CREATE & IMAGINE</span><span>Ages 3–7</span></div><h3>Colorland Adventures</h3><p>Meet Pico, pick a color, and make it yours. A cheerful coloring adventure with 100 pictures in ten little worlds.</p><div class="card-bottom"><span>Coloring · Creativity · Discovery</span><button type="button" data-game="colorland" aria-label="Explore Colorland Adventures">Explore <span aria-hidden="true">↗</span></button></div></div>
+      <div class="section-heading"><h2 id="worlds-title">Games & stories</h2><p>Choose an app to see its features and age range.</p></div>
+      <div class="filters" role="group" aria-label="Filter apps">
+        <button type="button" aria-pressed="true" aria-controls="game-list" data-filter="all">All apps <span>4</span></button>
+        <button type="button" aria-pressed="false" aria-controls="game-list" data-filter="create">Create & imagine</button>
+        <button type="button" aria-pressed="false" aria-controls="game-list" data-filter="discover">Play & discover</button>
+      </div>
+      <p class="sr-only" id="filter-status" role="status" aria-live="polite">Showing all four apps.</p>
+      <div class="game-grid" id="game-list">
+        <article class="game-card colorland" data-category="create" aria-labelledby="colorland-title">
+          <div class="card-art"><img src="assets/card-colorland.webp" width="1024" height="1024" alt="Illustration of Pico, a smiling paintbrush with colorful bristles, in a flower garden" loading="lazy"></div>
+          <div class="card-copy"><h3 id="colorland-title">Colorland Adventures</h3><p class="age-badge">Ages 3–7</p><p class="card-description">Choose from 100 pictures, color with Pico, and save your pictures in your gallery.</p><button class="button app-button" type="button" data-game="colorland">Preview Colorland <span aria-hidden="true">→</span></button></div>
         </article>
-        <article class="game-card stories" data-category="create">
-          <button class="card-art stories-art" type="button" data-game="stories" aria-label="Learn about Animated Stories"><span class="art-label">ONCE UPON A YOU</span><img src="assets/storybook.svg" width="760" height="420" alt="An illustrated open book with a moon, stars, and a tiny forest" loading="lazy"><span class="preview-corner" aria-hidden="true">↗</span></button>
-          <div class="card-copy"><div class="card-meta"><span>CREATE & IMAGINE</span><span>For families</span></div><h3>Animated Stories</h3><p>Turn familiar faces into storybook characters. Create a personalized illustrated story to read, keep, and enjoy together.</p><div class="card-bottom"><span>Stories · Imagination · Togetherness</span><button type="button" data-game="stories" aria-label="Explore Animated Stories">Explore <span aria-hidden="true">↗</span></button></div></div>
+        <article class="game-card stories" data-category="create" aria-labelledby="stories-title">
+          <div class="card-art"><img src="assets/card-stories.webp" width="1024" height="1024" alt="Illustration of a purple storybook with stars, a moon, and a small castle" loading="lazy"></div>
+          <div class="card-copy"><h3 id="stories-title">Animated Stories</h3><p class="age-badge">For families</p><p class="card-description">Choose up to four characters and a theme. Make a 6–8 page storybook you can save as a PDF.</p><button class="button app-button" type="button" data-game="stories" aria-describedby="stories-title">How it works <span aria-hidden="true">→</span></button></div>
         </article>
-        <article class="game-card puzzles" data-category="discover">
-          <button class="card-art puzzle-art" type="button" data-game="puzzles" aria-label="Preview PuzzlesKids"><span class="art-label">A PERFECT LITTLE MATCH</span><span class="puzzle-shape shape-one" aria-hidden="true">✦</span><img src="assets/puzzle-icon.png" width="512" height="512" alt="A friendly smiling golden puzzle piece" loading="lazy"><span class="puzzle-shape shape-two" aria-hidden="true">✧</span><span class="preview-corner" aria-hidden="true">↗</span></button>
-          <div class="card-copy"><div class="card-meta"><span>PLAY & DISCOVER</span><span>Ages 2–4</span></div><h3>PuzzlesKids</h3><p>Little pieces, happy discoveries. Match animals, colors, and shapes through 60 gentle levels, collecting stickers along the way.</p><div class="card-bottom"><span>Matching · Shapes · Little wins</span><button type="button" data-game="puzzles" aria-label="Explore PuzzlesKids">Explore <span aria-hidden="true">↗</span></button></div></div>
+        <article class="game-card puzzles" data-category="discover" aria-labelledby="puzzles-title">
+          <div class="card-art"><img src="assets/card-puzzles.webp" width="1024" height="1024" alt="Illustration of a smiling yellow puzzle piece surrounded by colorful pieces" loading="lazy"></div>
+          <div class="card-copy"><h3 id="puzzles-title">PuzzlesKids</h3><p class="age-badge">Ages 2–4</p><p class="card-description">Tap to match animals, colors, and shapes. Work through 60 levels and collect stickers for your sticker book.</p><button class="button app-button" type="button" data-game="puzzles">Preview PuzzlesKids <span aria-hidden="true">→</span></button></div>
         </article>
-        <article class="game-card discovery" data-category="discover">
-          <button class="card-art discovery-art" type="button" data-game="discovery" aria-label="Preview Little World of Discovery"><span class="art-label">CURIOSITY, MEET ADVENTURE</span><img src="assets/garden-scene.svg" width="1600" height="1000" alt="A colorful rainbow over a green garden with a curious bunny" loading="lazy"><span class="preview-corner" aria-hidden="true">↗</span></button>
-          <div class="card-copy"><div class="card-meta"><span>PLAY & DISCOVER</span><span>Ages 2–6</span></div><h3>Little World of Discovery</h3><p>From Rainbow Garden to Shape Island, explore five playful worlds filled with colors, creatures, and everyday discoveries.</p><div class="card-bottom"><span>Exploration · Learning · Curiosity</span><button type="button" data-game="discovery" aria-label="Explore Little World of Discovery">Explore <span aria-hidden="true">↗</span></button></div></div>
+        <article class="game-card discovery" data-category="discover" aria-labelledby="discovery-title">
+          <div class="card-art"><img src="assets/card-discovery.webp" width="1024" height="1024" alt="Illustration of a white bunny holding a daisy in a colorful garden" loading="lazy"></div>
+          <div class="card-copy"><h3 id="discovery-title">Little World of Discovery</h3><p class="age-badge">Ages 2–6</p><p class="card-description">Try 50 levels across five worlds, from Rainbow Garden to My Amazing Body. Adjust the difficulty as you go.</p><button class="button app-button" type="button" data-game="discovery" aria-describedby="discovery-title">Preview the game <span aria-hidden="true">→</span></button></div>
         </article>
       </div>
-      <p class="collection-note"><span aria-hidden="true">✦</span> A growing collection, currently in development. Take a peek at what’s being made.</p>
+      <p class="collection-note"><span aria-hidden="true">✦</span> These apps are still in development. Download links will be added when they’re ready.</p>
     </section>
-    <section class="families-section" id="families" aria-labelledby="families-title"><div class="wrap family-layout"><div class="family-intro"><p class="eyebrow">LITTLE PLAYERS. LOTS OF HEART.</p><h2 id="families-title">Made for the<br>“look what I did!”<br>moments.</h2><p>The joy is in trying, imagining, and figuring things out. These worlds invite children to do a little of each.</p><span class="family-doodle" aria-hidden="true">♡</span></div><div class="family-points"><article><span class="point-icon peach" aria-hidden="true">✳</span><div><h3>Space to make it their own</h3><p>A new color, a favorite character, a different way to play. There’s room for a child’s own ideas.</p></div></article><article><span class="point-icon green" aria-hidden="true">✿</span><div><h3>Little steps, happy discoveries</h3><p>Friendly matching games and colorful worlds make exploring feel approachable, one small moment at a time.</p></div></article><article><span class="point-icon lilac" aria-hidden="true">♡</span><div><h3>Even lovelier together</h3><p>Read a story side by side, admire a colorful creation, or celebrate that very first puzzle. Grown-ups are welcome here, too.</p></div></article></div></div></section>
-    <section class="questions-section wrap" aria-labelledby="questions-title"><div><p class="eyebrow">FOR CURIOUS GROWN-UPS</p><h2 id="questions-title">A few little answers.</h2></div><div class="questions"><details><summary>Where can we download the games?<span aria-hidden="true">+</span></summary><p>The collection is currently in development. This website is a first look at the experiences; official download links will be added when releases are available.</p></details><details><summary>Which world should we start with?<span aria-hidden="true">+</span></summary><p>Try PuzzlesKids for simple matching at ages 2–4, Little World of Discovery for exploration at ages 2–6, or Colorland Adventures for coloring at ages 3–7. Animated Stories is a storytelling experience for families to set up and enjoy together.</p></details><details><summary>What makes Animated Stories different?<span aria-hidden="true">+</span></summary><p>It’s a personalized storytelling experience. Grown-ups create characters and a story, then enjoy an illustrated mini-book with the family. Books can be saved as PDFs; video export is an optional feature that depends on the final release setup.</p></details><details><summary>Can we get in touch?<span aria-hidden="true">+</span></summary><p>Of course. For questions about the projects, write to <a href="mailto:bondorramona17@gmail.com">bondorramona17@gmail.com</a>.</p></details></div></section>
-    <section class="hello-section wrap" aria-labelledby="hello-title"><div><p class="eyebrow">MORE LITTLE WONDERS ON THE WAY</p><h2 id="hello-title">Every adventure starts<br>with a little hello.</h2><p>Have a question or a little idea to share? We’d love to hear it.</p><a class="button primary" href="mailto:bondorramona17@gmail.com">Say hello <span aria-hidden="true">↗</span></a></div><div class="hello-flower" aria-hidden="true"><img src="assets/flower.svg" width="220" height="220" alt=""><span>keep growing,<br>keep wondering.</span></div></section>
+    <section class="families-section" id="families" aria-labelledby="families-title">
+      <svg class="section-wave family-wave" viewBox="0 0 1440 64" preserveAspectRatio="none" aria-hidden="true"><path d="M0 40Q130-28 300 24T640 28 1010 25 1440 23V64H0Z"/></svg>
+      <div class="wrap"><h2 id="families-title">For children and their grown-ups</h2>
+        <div class="family-points">
+          <article><div class="family-icon"><img src="assets/colorland-icon.png" width="512" height="512" alt="" loading="lazy"></div><div><h3>Color a picture</h3><p>Pick a picture in Colorland, try a few colors with Pico, and save it to look at together.</p></div></article>
+          <article><div class="family-icon"><img src="assets/puzzle-icon.png" width="512" height="512" alt="" loading="lazy"></div><div><h3>Finish a puzzle</h3><p>Help find a matching shape or animal, then open the sticker book to see what’s been collected.</p></div></article>
+          <article><div class="family-icon book-icon"><img src="assets/storybook.svg" width="760" height="420" alt="" loading="lazy"></div><div><h3>Read a story together</h3><p>Choose the characters as a family. Grown-ups handle the setup, and everyone can join in with the story.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="questions-section wrap" aria-labelledby="questions-title">
+      <h2 id="questions-title">Questions from parents</h2>
+      <div class="questions">
+        <details><summary>Where can we download the apps?<span aria-hidden="true">+</span></summary><p>They’re still in development. You can explore the previews here, and we’ll add official download links when the apps are ready.</p></details>
+        <details><summary>Which app should we start with?<span aria-hidden="true">+</span></summary><p>Try PuzzlesKids for matching at ages 2–4, Little World of Discovery for activities at ages 2–6, or Colorland Adventures for coloring at ages 3–7. Animated Stories is for families to set up and read together.</p></details>
+        <details><summary>How does Animated Stories work?<span aria-hidden="true">+</span></summary><p>A grown-up chooses up to four characters and a theme to create a 6–8 page illustrated storybook. Books are kept in a private library and can be saved as PDFs. Optional MP4 video export depends on the final release setup.</p></details>
+        <details><summary>Can we get in touch?<span aria-hidden="true">+</span></summary><p>Yes. Send questions about any of the apps to <a href="mailto:bondorramona17@gmail.com">bondorramona17@gmail.com</a>.</p></details>
+      </div>
+    </section>
+    <section class="hello-section wrap" aria-labelledby="hello-title">
+      <div><h2 id="hello-title">Have a question about a game?</h2><p>Ask about an app or tell us what you’d like to see next.</p><a class="button primary" href="mailto:bondorramona17@gmail.com">Say hello <span aria-hidden="true">→</span></a></div>
+      <img class="hello-flower" src="assets/flower.svg" width="130" height="130" alt="" loading="lazy">
+    </section>
   </main>
-  <footer class="site-footer wrap"><a class="brand" href="#"><img src="assets/flower.svg" width="34" height="34" alt=""><span>Ramona’s<span class="brand-bottom">little worlds</span></span></a><p>Made with care by Bondor Ramona Anisoara.</p><div><button type="button" id="privacy-button">Website privacy</button><a href="https://github.com/ramonabondor/ramona-kids-games">GitHub <span aria-hidden="true">↗</span></a></div></footer>
-  <dialog id="game-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" aria-label="Close preview">×</button><div id="dialog-content"></div></dialog>
-  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><button type="button" class="dialog-close" aria-label="Close privacy information">×</button><div class="privacy-content"><p class="eyebrow">THIS SHOWCASE</p><h2 id="privacy-title">Website privacy</h2><p>This showcase has no account registration, forms, analytics, advertising, or cookies set by us. Game previews open directly in your browser. No photos or stories are uploaded here.</p><p>Email links open your email application. GitHub hosts this website; its own service policies apply. Each game or storytelling service will have its own privacy information when released.</p><p>Questions: <a href="mailto:bondorramona17@gmail.com">bondorramona17@gmail.com</a>.</p></div></dialog>
+  <footer class="site-footer wrap">
+    <a class="brand" href="#" aria-label="Ramona’s Little Worlds home"><img src="assets/flower.svg" width="40" height="40" alt=""><span>Ramona’s<span class="brand-bottom">little worlds</span></span></a>
+    <p>Made by Bondor Ramona Anisoara.</p><div><button type="button" id="privacy-button">Website privacy</button><a href="https://github.com/ramonabondor/ramona-kids-games">GitHub <span aria-hidden="true">↗</span></a></div>
+  </footer>
+  <dialog id="game-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><button type="button" class="dialog-close" aria-label="Close preview">×</button></div><div id="dialog-content"></div></dialog>
+  <dialog id="privacy-dialog" aria-labelledby="privacy-title"><div class="dialog-toolbar"><button type="button" class="dialog-close" aria-label="Close privacy information">×</button></div><div class="privacy-content"><h2 id="privacy-title">Website privacy</h2><p>This showcase has no account registration, forms, analytics, advertising, or cookies set by us. Previews open in your browser. No photos or stories are uploaded here.</p><p>Email links open your email application. GitHub hosts this website; its own service policies apply. Each app will have its own privacy information when released.</p><p>Questions: <a href="mailto:bondorramona17@gmail.com">bondorramona17@gmail.com</a>.</p></div></dialog>
 </body>
 </html>

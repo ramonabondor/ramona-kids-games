@@ -12,7 +12,7 @@ No dependencies or build step are required. From this directory:
 python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:4173. The site includes responsive layouts, category filtering, accessible native preview dialogs, a family section, FAQ, and email contact. It has no analytics, cookies, uploads, or account system. All assets are local.
+Open http://127.0.0.1:4173. The site includes the reference-inspired sky-blue hero, coral/lavender/yellow/mint app cards, responsive layouts, category filtering, accessible native preview dialogs, a family section, FAQ, and email contact. It has no analytics, cookies, uploads, or account system. All assets are local.
 
 ## Publish with GitHub Pages
 
@@ -31,8 +31,12 @@ The public repository contains only the showcase and selected public-facing artw
 
 ## Artwork and fonts
 
-Project artwork and screenshots remain the property of their respective project owner. `flower.svg` and `storybook.svg` were created for this showcase. No third-party stock photography is used. Nunito by the Nunito Project Authors is bundled under the SIL Open Font License 1.1; see `assets/Nunito-OFL.txt`. Public repository visibility does not grant a license to the project artwork or application branding.
+Project artwork and screenshots remain the property of their respective project owner. `flower.svg` and `storybook.svg` were created for this showcase. The hero and four card illustrations are decorative AI-generated artwork made with the built-in image generation tool using the supplied design reference. They are not product screenshots. The dialogs keep the authentic development screenshots, and Animated Stories labels its illustration explicitly. Optimized WebP assets are used for the website; full PNG masters remain in the local workspace. Final prompts are saved for the [hero illustration](assets/illustration-prompts.txt) and [four card illustrations](assets/card-illustration-prompts.txt). No third-party stock photography is used. Nunito by the Nunito Project Authors is bundled under the SIL Open Font License 1.1; see `assets/Nunito-OFL.txt`. Public repository visibility does not grant a license to the project artwork or application branding.
 
 ## Updating
 
 Edit `index.html` for page copy, `styles.css` for layout, and `app.js` for modal details and filtering. Replace images in `assets/` as projects evolve. If the repository name changes, update the live link above, the footer repository link, and the Open Graph image URL.
+
+## Redesign verification
+
+The redesign uses selectable HTML text, native controls and dialogs, and CSS layout. No dependencies or build step were added. The supplied replacement copy and product ages/features are preserved. Reduced-motion preferences disable smooth scrolling and transitions. See `QA.md` for the final browser and accessibility checks.
