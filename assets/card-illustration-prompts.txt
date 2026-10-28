@@ -1,0 +1,43 @@
+Generated with built-in image_gen (four distinct calls).
+Reference direction: Ramona’s Little Worlds game showcase.png. Decorative editorial art only; not product screenshots.
+
+card-colorland.png
+Use case: illustration-story
+Asset type: square decorative illustration for a children's game showcase card.
+Style/medium: polished children's picture-book illustration, hand-painted airbrush-like shading with a soft dimensional feel, richly colored, rounded friendly shapes, very clean high-end digital storybook art. Match the visual direction of a cheerful sky-blue rainbow garden filled with thick leaves and daisies, welcoming smiling characters and soft sunlight. This is decorative editorial art, not a screenshot of a game.
+Composition: square full-bleed artwork, one clear central main character shown fully with comfortable margin, foliage framing the outer edges, readable at small card size.
+Constraints: absolutely no text, no letters, no numbers, no logo, no UI, no border, no watermark. No photorealism, no harsh outlines, no cropped main character.
+Primary subject: one friendly turquoise paintbrush named Pico, upright with a small happy face on its turquoise handle, blushing cheeks, dark smiling eyes. Its oversized lush bristles sweep upward in a curved rainbow of coral, yellow, turquoise, blue and lavender.
+Scene: joyful sunny garden with large fresh green leaves and white daisies; a small smiling yellow sun in the upper-right sky and a few colorful paint droplets around the brush. Warm coral and peach accents around the scene, pale blue sky.
+Lighting/mood: inviting, playful, bright spring daylight. Keep the paintbrush the unmistakable focal point.
+
+card-stories.png
+Use case: illustration-story
+Asset type: square decorative illustration for a children's game showcase card.
+Style/medium: polished children's picture-book illustration, hand-painted airbrush-like shading with a soft dimensional feel, richly colored, rounded friendly shapes, very clean high-end digital storybook art. Match the visual direction of a cheerful sky-blue rainbow garden filled with thick leaves and daisies, welcoming smiling characters and soft sunlight. This is decorative editorial art, not a screenshot of a game.
+Composition: square full-bleed artwork, one clear central main character shown fully with comfortable margin, foliage framing the outer edges, readable at small card size.
+Constraints: absolutely no text, no letters, no numbers, no logo, no UI, no border, no watermark. No photorealism, no harsh outlines, no cropped main character.
+Primary subject: a friendly open purple storybook with softly rounded covers and a small happy face on the front cover facing the viewer. Cream pages fan open, decorated with a few simple golden stars and a crescent moon but no words.
+Scene: a little fairytale castle and soft evergreen trees rise behind the open pages; lavender night sky with glowing yellow stars and a crescent moon, fluffy pale clouds, flowers and leaves in the lower corners. Deep purple and lavender dominate with cream and yellow accents.
+Lighting/mood: cozy, welcoming, softly luminous, suitable for a bedtime story. The whole open book is visible and fills the center.
+
+card-puzzles.png
+Use case: illustration-story
+Asset type: square decorative illustration for a children's game showcase card.
+Style/medium: polished children's picture-book illustration, hand-painted airbrush-like shading with a soft dimensional feel, richly colored, rounded friendly shapes, very clean high-end digital storybook art. Match the visual direction of a cheerful sky-blue rainbow garden filled with thick leaves and daisies, welcoming smiling characters and soft sunlight. This is decorative editorial art, not a screenshot of a game.
+Composition: square full-bleed artwork, one clear central main character shown fully with comfortable margin, foliage framing the outer edges, readable at small card size.
+Constraints: absolutely no text, no letters, no numbers, no logo, no UI, no border, no watermark. No photorealism, no harsh outlines, no cropped main character.
+Primary subject: one large smiling bright yellow jigsaw puzzle piece with a soft rounded shape, dark happy eyes, tiny coral cheeks and a small open smile. It is dimensional and friendly, with no arms or legs.
+Scene: sunny garden full of fresh green leaves and small white daisies, pale sky-blue background. Three smaller jigsaw pieces in coral-pink, mint and lavender float around the central piece, all fully recognizable. Yellow and warm golden highlights dominate.
+Lighting/mood: bright, happy, playful, with clean shadows and cheerful saturated color. All parts of the large main yellow puzzle piece must remain visible.
+
+card-discovery.png
+Use case: illustration-story
+Asset type: square decorative illustration for a children's game showcase card.
+Style/medium: polished children's picture-book illustration, hand-painted airbrush-like shading with a soft dimensional feel, richly colored, rounded friendly shapes, very clean high-end digital storybook art. Match the visual direction of a cheerful sky-blue rainbow garden filled with thick leaves and daisies, welcoming smiling characters and soft sunlight. This is decorative editorial art, not a screenshot of a game.
+Composition: square full-bleed artwork, one clear central main character shown fully with comfortable margin, foliage framing the outer edges, readable at small card size.
+Constraints: absolutely no text, no letters, no numbers, no logo, no UI, no border, no watermark. No photorealism, no harsh outlines, no cropped main character.
+Primary subject: an adorable white bunny with long pink-lined upright ears, soft fluffy fur, large expressive dark eyes, small pink nose and a gentle smile, holding one white daisy with a golden center.
+Scene: a rainbow garden with mint-green leaves, white daisies, a small ladybug and one colorful butterfly, distant soft trees under a pale sky-blue sky. A gentle rainbow is visible in the distance. Fresh mint accents dominate.
+Lighting/mood: sunny, welcoming and tender. Bunny is shown from feet to ear tips, fully inside the frame, sitting in the garden and looking toward the viewer.
+

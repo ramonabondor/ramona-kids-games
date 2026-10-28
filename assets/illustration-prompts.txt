@@ -1,0 +1,14 @@
+Hero illustration — hero-playtime.png
+Generated with the built-in image_gen tool, transparent_background=true, using the user's attached visual reference for style guidance only.
+
+Use case: illustration-story
+Asset type: transparent decorative hero illustration for a cheerful children's app showcase website, final production asset.
+Primary request: Create one polished, joyful, colorful children's storybook illustration of a group of friendly characters in a flower garden. This is an illustration asset only; do not render a webpage or any words.
+Input images: provided reference image is style and character guidance only. Match its cheerful tactile softly dimensional illustrated style and friendly bunny and paintbrush personality.
+Subjects: a large luminous rainbow arcs across the back; a smiling golden sun with small rays sits at the upper right; an adorable white bunny with long pink ears, tiny nose, rosy cheeks, happy closed eyes and open smile waves at center. At the bunny's left is a friendly turquoise paintbrush character with gorgeous rainbow-colored bristles and a small happy face. In front is a chunky golden yellow smiling puzzle piece with little rounded knobs and cutouts. At the right is a purple open storybook character with a sweet smiling face, cream pages, and small gold stars and a crescent moon on its cover. All five main subjects, including the sun and rainbow, are fully visible and comfortably framed.
+Scene/backdrop: Small lush garden island beneath the characters, mint and deep green leaves, daisies, coral flowers, and a few small yellow flowers. A few soft white clouds can sit behind the rainbow, but transparency must remain around all objects and the garden island.
+Style/medium: premium children's picture-book art with soft 3D volume, smooth painted surfaces, gentle highlights, natural charming forms, vivid clean color and exquisite softly painted detail. Friendly, warm, welcoming, clear silhouettes, expressive simple faces.
+Composition/framing: compact landscape composition around 3:2, characters form a close ensemble balanced for the right half of a website hero. The rainbow makes a rounded arch, garden forms the bottom edge. Keep every important character uncut with a small transparent margin; no text zone required. Output one cohesive illustration.
+Lighting/mood: bright sunny soft light, playful and welcoming.
+Color palette: sky #DFF5FF, navy #24345B, blue #3563E9, coral #FF775F, yellow #FFD65C, lavender #B9A2F2, mint #74D8B5, white bunny, turquoise brush.
+Constraints: true transparent background with alpha outside the illustrated objects, not a solid sky rectangle. NO text, words, lettering, numbers, logo, watermark, interface, cards, buttons, website, or typography. Decorative illustration, never an app screenshot.
